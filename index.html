@@ -269,109 +269,143 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
+          <p>Below are the C# .NET applications I have built as well as several Javascript coding challenges. Each was built with the MVC design pattern using ASP.NET and backed with a Postgres database. These applications and coding challenges are currently running on a Heroku server using CI/CD.</p>
+    <!-- 
+          <div class="row">
+              <div class="col"> <li>Blog Application</li>
+                <li>Bug Tracker Application</li>
+                <li>MoviePro Application</li>
+                <li>Taco Cat Coding Challenge</li></div>
+              <div class="col"> <li>FizzBuzz Coding Challenge</li>
+                <li>Sum Of All Fears Coding Challenge</li>
+                <li>Sunset Hills Coding Challenge</li>
+                <li>Superdog Events Coding Challenge</li></div>
+          </div>
+        -->
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">Full Stack applications</li>
+              <li data-filter=".filter-web">Coding Challenges</li>
             </ul>
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/img/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+            <!-- This creates an image that will launch the modal when the left button is clicked -->
+<!-- The data-toggle="modal" data-target="#blogModal" are the functional code --> 
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <h4 class="portfolio-title">Blog Application</h4>
+                <div class="portfolio-wrap">
+                    <img src="/img/portfolio-1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-links">
+                        <a href="javascript:void();" data-target="#blogModal" data-toggle="modal" title="App 1"><i
+                                class="bx bx-plus"></i></a>
+                        <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
             </div>
-          </div>
+<!-- New Code app #2-->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <h4 class="portfolio-title">Bug Tracker Application</h4>
+            <div class="portfolio-wrap">
+                <img src="/img/portfolio-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links">
+                    <a href="javascript:void();" data-target="#bugTrackerModal" data-toggle="modal" title="App 2"><i
+                            class="bx bx-plus"></i></a>
+                    <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+        </div>
+<!-- New code app #3-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <h4 class="portfolio-title">Movie Pro Application</h4>
+            <div class="portfolio-wrap">
+                <img src="/img/portfolio-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links">
+                    <a href="javascript:void();" data-target="#movieProModal" data-toggle="modal" title="App 3"><i
+                            class="bx bx-plus"></i></a>
+                    <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+        </div>
+<!-- New code Challenge #1-->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <h4 class="portfolio-title">Taco Cat Coding Challenge</h4>
+            <div class="portfolio-wrap">
+                <img src="/img/portfolio-4.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links">
+                    <a href="javascript:void();" data-target="#tacoCatModal" data-toggle="modal" title="Web 1"><i
+                            class="bx bx-plus"></i></a>
+                    <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+        </div>
 
+<!-- New code Challenge #2-->
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <h4 class="portfolio-title">FizzBuzz Coding Challenge</h4>
             <div class="portfolio-wrap">
-              <img src="/img/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/img/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+                <img src="/img/portfolio-5.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links">
+                    <a href="javascript:void();" data-target="#fizzbuzzModal" data-toggle="modal" title="Web 2"><i
+                            class="bx bx-plus"></i></a>
+                    <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        </div>
+<!-- New code Challenge #3-->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <h4 class="portfolio-title">Sum Of All Fears Coding Challenge</h4>
             <div class="portfolio-wrap">
-              <img src="/img/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/img/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+                <img src="/img/portfolio-6.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links">
+                    <a href="javascript:void();" data-target="#sumOfAllModal" data-toggle="modal" title="Web 3"><i
+                            class="bx bx-plus"></i></a>
+                    <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
             </div>
-          </div>
-          <!-- 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/img/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div> -->
-
+        </div>
+<!-- New code Challenge #4-->
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <h4 class="portfolio-title">Sunset Hills Coding Challenge</h4>
             <div class="portfolio-wrap">
-              <img src="/img/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/img/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+                <img src="/img/portfolio-7.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links">
+                    <a href="javascript:void();" data-target="#sunsetHillsModal" data-toggle="modal" title="Web 4"><i
+                            class="bx bx-plus"></i></a>
+                    <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/img/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-            <!--  
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/img/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
+        </div>
+<!-- New code Challenge #5-->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <h4 class="portfolio-title">Superdog Events Coding Challenge</h4>
+          <div class="portfolio-wrap">
               <img src="/img/portfolio-8.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="/img/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="javascript:void();" data-target="#superdogEventsModal" data-toggle="modal" title="Web 5"><i
+                          class="bx bx-plus"></i></a>
+                  <a href="#" title="More Details"><i class="bx bx-link"></i></a>
               </div>
-            </div>
-          </div> -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="/img/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="/img/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
           </div>
+      </div>
+<!-- New code Challenge #6-->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <h4 class="portfolio-title">Placeholder Coding Challenge</h4>
+        <div class="portfolio-wrap">
+            <img src="/img/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+                <a href="javascript:void();" data-target="#futureModal" data-toggle="modal" title="Web 6"><i
+                        class="bx bx-plus"></i></a>
+                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+        </div>
+    </div>
 
         </div>
 
@@ -457,7 +491,7 @@
     <section id="blog" class="blog section-bg">
         <div class="container">
             <div class="section-title">
-                <h2>Blog</h2>
+                <h2>Blog Posts</h2>
             </div>
             <div class="row">
                 
@@ -525,35 +559,39 @@
           </div> 
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form role="form" class="php-email-form" id="form">
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="from_name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <!-- This was making the form stretch when email sent
                   <div class="validate"></div>
+                  -->
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="reply_to" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <!-- 
                   <div class="validate"></div>
+                  -->
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
                 <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <!-- 
                 <div class="validate"></div>
+                -->
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <!-- 
                 <div class="validate"></div>
+                -->
               </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              
+              <div class="text-center"><button type="submit" id="button">Send Message</button></div>
             </form>
           </div>
 
@@ -581,6 +619,235 @@
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
+<!-- This is the code that makes the modal itself -->
+<!-- The first div declares the modal -->
+<!-- The second div defines the modal - vertically centered and large size -->
+<!-- Blog Modal Section app 1-->
+<div class="modal fade" id="blogModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">Samuel Musa's Software Development Blog application</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/blogPlaceHolder.jpg" class="img-fluid">
+                <p>Samuel Musa's Software Development blog is place where readers can dive into the tech world and gain knowledge.</p>
+                <p>This is a collection of blog posts I've written during my path to becoming a software developer
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Blog Modal -->
+
+<!-- Bug Tracker section app 2-->
+<div class="modal fade" id="bugTrackerModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">Samuel Musa's bug tracker application</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/bugTrackerPlaceHolder.jpg" class="img-fluid">
+                <p>Samuel Musa's bug tracker</p>
+                <p>I created this with .Net
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Bug tracker section-->
+
+<!-- Movie Pro Section app 3-->
+<div class="modal fade" id="movieProModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">Samuel Musa's Movie Pro application</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/movieProPlaceHolder.jpg" class="img-fluid">
+                <p>I created this movie pro application using .Net tech stack</p>
+                <p>SM
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Movie Pro Section-->
+
+<!-- Javascript challenge #1-->
+<div class="modal fade" id="tacoCatModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">Taco Cat Coding Challenge</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/blogPlaceHolder.jpg" class="img-fluid">
+                <p>Coding Challenge #1</p>
+                <p>Challenge description
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Javascript #1-->
+
+<!-- Javascript challenge #2-->
+<div class="modal fade" id="fizzbuzzModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">FizzBuzz Coding Challenge</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/blogPlaceHolder.jpg" class="img-fluid">
+                <p>Coding Challenge #2</p>
+                <p>Challenge description
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Javascript #2-->
+
+<!-- Javascript challenge #3-->
+<div class="modal fade" id="sumOfAllModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">Sum of all fears Coding Challenge</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/blogPlaceHolder.jpg" class="img-fluid">
+                <p>Coding Challenge #3</p>
+                <p>Challenge description
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Javascript #3-->
+
+<!-- Javascript challenge #4-->
+<div class="modal fade" id="sunsetHillsModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">Sunset Hills Coding Challenge</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/blogPlaceHolder.jpg" class="img-fluid">
+                <p>Coding Challenge #4</p>
+                <p>Challenge description
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Javascript #4-->
+
+<!-- Javascript challenge #5-->
+<div class="modal fade" id="superdogEventsModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">Superdog Events Coding Challenge</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/blogPlaceHolder.jpg" class="img-fluid">
+                <p>Coding Challenge #5</p>
+                <p>Challenge description #5
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Javascript #5-->
+
+<!-- Javascript challenge #6-->
+<div class="modal fade" id="futureModal" tabindex="-1" role="dialog" aria-labelledby="blogModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLongTitle">Future Coding Challenge</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/blogPlaceHolder.jpg" class="img-fluid">
+                <p>Coding Challenge #6</p>
+                <p>Challenge description
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://coderfoundry.com" class="btn btn-primary" target="_blank">Visit the Blog</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Javascript #6-->
+
+
   <!-- Vendor JS Files -->
   <script src="/js/jquery.min.js"></script>
   <script src="/js/bootstrap.bundle.min.js"></script>
@@ -596,6 +863,18 @@
 
   <!-- Template Main JS File -->
   <script src="/js/main.js"></script>
+  
+  <script type="text/javascript"
+  src="//cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('user_PqOqE8eaK1ztNx10CdfDz')
+</script>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+<script src="/js/site.js"></script>
+  
 
 </body>
 

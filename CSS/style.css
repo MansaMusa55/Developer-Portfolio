@@ -503,6 +503,14 @@ section {
   padding: 2px 15px;
 }
 
+#portfolio .portfolio-title {
+  font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    color: #173b6c;
+}
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
